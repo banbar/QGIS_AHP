@@ -1,0 +1,7 @@
+# QGIS Generated Color Map Export File
+INTERPOLATION:EXACT
+4,126,10,10,255,Kumlu Mil
+8,179,57,37,255,Mil
+64,88,92,57,255,Killi Mil
+128,196,145,45,255,Kumlu Killi Mil
+2048,0,0,0,255,Kil

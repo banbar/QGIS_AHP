@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=ahp_application
+qgisMinimumVersion=3.0
+description=This QGIS plugin implements the Analytic Hierarchy Process (AHP) for suitability analysis
+version=0.1
+author=Pelin Evcimen, Tolga Evcimen, Berk Anbaroğlu
+email=banbar@hacettepe.edu.tr
+
+about=This QGIS plugin implements the Analytic Hierarchy Process (AHP) for suitability analysis, enabling users to evaluate and identify optimal locations based on multiple criteria. It provides an intuitive interface for integrating diverse input types like DEM files, climate data, and vector files for proximity analysis, making complex spatial decisions more accessible. The plugin also features a powerful reclassification tool, pairwise comparison functionality, and the ability to set restricted zones that cannot be compensated by any other criteria, ensuring more precise and flexible spatial decision-making. <br><br>Whether you're conducting environmental studies, urban planning, or resource management, the QGIS AHP Extension simplifies the decision-making process by providing clear, actionable insights. With a user-friendly interface and the flexibility to adjust for different use cases, this plugin empowers users to integrate expert judgment with spatial data in a structured and repeatable manner.
+
+tracker=https://github.com/banbar/QGIS_AHP/issues
+repository=https://github.com/banbar/QGIS_AHP
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, mcdm, ahp, suitability analysis, planning, agriculture
+
+homepage=https://github.com/banbar/QGIS_AHP
+category=Plugins
+icon=logo.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
